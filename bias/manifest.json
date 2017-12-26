@@ -1,0 +1,26 @@
+{
+	"name": "partial",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Checks the biasness of any newspaper",
+	"default_locale": "en",
+
+	"icons": {
+
+	},
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "",
+		"default_popup": "popup.html"
+	},
+	
+	"permissions": [
+		"background",
+		"tabs",
+		"http://*/*"
+		"https://*/*"
+	],
+}
