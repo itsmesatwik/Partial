@@ -1,0 +1,380 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 4821,
+    "features": 4
+  },
+  "retrieved_url": "https://www.nytimes.com/2014/05/25/magazine/must-the-captain-always-go-down-with-the-ship.html",
+  "language": "en",
+  "keywords": [
+    {
+      "text": "captain",
+      "sentiment": {
+        "score": -0.157588,
+        "label": "negative"
+      },
+      "relevance": 0.902782,
+      "emotion": {
+        "sadness": 0.244027,
+        "joy": 0.09458,
+        "fear": 0.156962,
+        "disgust": 0.072711,
+        "anger": 0.136988
+      }
+    },
+    {
+      "text": "NEW YORK",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.896239,
+      "emotion": {
+        "sadness": 0.326028,
+        "joy": 0.054085,
+        "fear": 0.005669,
+        "disgust": 0.047592,
+        "anger": 0.022668
+      }
+    }
+  ],
+  "entities": [
+    {
+      "type": "Location",
+      "text": "NEW YORK",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.729803,
+      "emotion": {
+        "sadness": 0.326028,
+        "joy": 0.054085,
+        "fear": 0.005669,
+        "disgust": 0.047592,
+        "anger": 0.022668
+      },
+      "disambiguation": {
+        "subtype": [
+          "PoliticalDistrict",
+          "GovernmentalJurisdiction",
+          "PlaceWithNeighborhoods",
+          "WineRegion",
+          "FilmScreeningVenue",
+          "City"
+        ],
+        "name": "New York City",
+        "dbpedia_resource": "http://dbpedia.org/resource/New_York_City"
+      },
+      "count": 2
+    },
+    {
+      "type": "Person",
+      "text": "Lee Jun-seok",
+      "sentiment": {
+        "score": -0.478424,
+        "label": "negative"
+      },
+      "relevance": 0.722902,
+      "emotion": {
+        "sadness": 0.482503,
+        "joy": 0.145562,
+        "fear": 0.406707,
+        "disgust": 0.077008,
+        "anger": 0.035138
+      },
+      "count": 2
+    },
+    {
+      "type": "JobTitle",
+      "text": "writer",
+      "sentiment": {
+        "score": 0.238702,
+        "label": "positive"
+      },
+      "relevance": 0.702478,
+      "emotion": {
+        "sadness": 0.083692,
+        "joy": 0.567736,
+        "fear": 0.03983,
+        "disgust": 0.142076,
+        "anger": 0.186464
+      },
+      "count": 2
+    },
+    {
+      "type": "Person",
+      "text": "Mary Ann Evans",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.600883,
+      "emotion": {
+        "sadness": 0.119772,
+        "joy": 0.288062,
+        "fear": 0.125046,
+        "disgust": 0.223681,
+        "anger": 0.066704
+      },
+      "disambiguation": {
+        "subtype": [
+          "Writer",
+          "AwardNominee",
+          "FilmWriter"
+        ],
+        "name": "George Eliot",
+        "dbpedia_resource": "http://dbpedia.org/resource/George_Eliot"
+      },
+      "count": 2
+    },
+    {
+      "type": "Person",
+      "text": "RYAN CAIN",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.570703,
+      "emotion": {
+        "sadness": 0.28673,
+        "joy": 0.103855,
+        "fear": 0.038216,
+        "disgust": 0.338106,
+        "anger": 0.107439
+      },
+      "count": 1
+    },
+    {
+      "type": "Location",
+      "text": "South Korea",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.553595,
+      "emotion": {
+        "sadness": 0.384786,
+        "joy": 0.272701,
+        "fear": 0.047645,
+        "disgust": 0.110112,
+        "anger": 0.044654
+      },
+      "disambiguation": {
+        "subtype": [
+          "GovernmentalJurisdiction",
+          "Country"
+        ],
+        "name": "South Korea",
+        "dbpedia_resource": "http://dbpedia.org/resource/South_Korea"
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "LUCY MCCLELLAN",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.515178,
+      "emotion": {
+        "sadness": 0.261296,
+        "joy": 0.125381,
+        "fear": 0.03233,
+        "disgust": 0.349603,
+        "anger": 0.121715
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "J. K. Rowling",
+      "sentiment": {
+        "score": 0.280212,
+        "label": "positive"
+      },
+      "relevance": 0.501368,
+      "emotion": {
+        "sadness": 0.122078,
+        "joy": 0.110455,
+        "fear": 0.102588,
+        "disgust": 0.079711,
+        "anger": 0.081349
+      },
+      "disambiguation": {
+        "subtype": [
+          "Writer",
+          "AwardNominee",
+          "AwardWinner",
+          "FictionalUniverseCreator",
+          "FilmWriter",
+          "Illustrator",
+          "TVActor"
+        ],
+        "name": "J. K. Rowling",
+        "dbpedia_resource": "http://dbpedia.org/resource/J._K._Rowling"
+      },
+      "count": 1
+    },
+    {
+      "type": "Location",
+      "text": "Nigeria",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.499582,
+      "emotion": {
+        "sadness": 0.111714,
+        "joy": 0.390362,
+        "fear": 0.02423,
+        "disgust": 0.073322,
+        "anger": 0.109179
+      },
+      "disambiguation": {
+        "subtype": [
+          "Country"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "E. J. Smith",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.49951,
+      "emotion": {
+        "sadness": 0.175541,
+        "joy": 0.141365,
+        "fear": 0.109287,
+        "disgust": 0.071021,
+        "anger": 0.094718
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "JT LeRoy",
+      "sentiment": {
+        "score": -0.300876,
+        "label": "negative"
+      },
+      "relevance": 0.499263,
+      "emotion": {
+        "sadness": 0.158429,
+        "joy": 0.07691,
+        "fear": 0.100372,
+        "disgust": 0.221097,
+        "anger": 0.392204
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Laura Albert",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.497029,
+      "emotion": {
+        "sadness": 0.114267,
+        "joy": 0.283376,
+        "fear": 0.092985,
+        "disgust": 0.138871,
+        "anger": 0.284899
+      },
+      "disambiguation": {
+        "subtype": [
+          "Writer"
+        ],
+        "name": "Laura Albert",
+        "dbpedia_resource": "http://dbpedia.org/resource/Laura_Albert"
+      },
+      "count": 1
+    },
+    {
+      "type": "Crime",
+      "text": "prostitution",
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral"
+      },
+      "relevance": 0.476325,
+      "emotion": {
+        "sadness": 0.114267,
+        "joy": 0.283376,
+        "fear": 0.092985,
+        "disgust": 0.138871,
+        "anger": 0.284899
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Robert Galbraith",
+      "sentiment": {
+        "score": 0.280212,
+        "label": "positive"
+      },
+      "relevance": 0.422858,
+      "emotion": {
+        "sadness": 0.122078,
+        "joy": 0.110455,
+        "fear": 0.102588,
+        "disgust": 0.079711,
+        "anger": 0.081349
+      },
+      "count": 1
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Pseudonym",
+      "relevance": 0.971867,
+      "dbpedia_resource": "http://dbpedia.org/resource/Pseudonym"
+    },
+    {
+      "text": "Pen name",
+      "relevance": 0.910661,
+      "dbpedia_resource": "http://dbpedia.org/resource/Pen_name"
+    },
+    {
+      "text": "George Eliot",
+      "relevance": 0.635181,
+      "dbpedia_resource": "http://dbpedia.org/resource/George_Eliot"
+    },
+    {
+      "text": "J. K. Rowling",
+      "relevance": 0.562082,
+      "dbpedia_resource": "http://dbpedia.org/resource/J._K._Rowling"
+    },
+    {
+      "text": "Name",
+      "relevance": 0.528178,
+      "dbpedia_resource": "http://dbpedia.org/resource/Name"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.867197,
+      "label": "/business and industrial/shipbuilding"
+    },
+    {
+      "score": 0.490619,
+      "label": "/art and entertainment/books and literature"
+    },
+    {
+      "score": 0.369451,
+      "label": "/business and industrial/advertising and marketing/advertising"
+    }
+  ],
+  "warnings": [
+    "emotion: cannot locate keyphrase",
+    "sentiment: cannot locate keyphrase"
+  ]
+}
