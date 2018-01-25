@@ -1,4 +1,5 @@
 import json
+import os
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 from watson_developer_cloud.natural_language_understanding_v1 \
   import Features, EntitiesOptions,EmotionOptions,KeywordsOptions,ConceptsOptions,SentimentOptions, CategoriesOptions
@@ -27,4 +28,10 @@ response = natural_language_understanding.analyze(
       targets=['stocks']),
     categories=CategoriesOptions()))
 
-print(json.dumps(response, indent=2))
+#Create json to store results of Watson analysis.
+dir = os.path.dirname(__file__)
+path = 'analysisResults.json'
+file_path = os.path.join(dir, path)
+with open(file_path, 'w') as outfile:
+  json.dump(response, outfile, indent = 2)
+
