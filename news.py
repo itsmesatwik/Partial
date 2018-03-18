@@ -1,16 +1,11 @@
-import requests
+from newsapi import NewsApiClient
 from apiKey import newsapikey
 
-def getArticlesList(keyword, date):
-    apiKeyword = 'q=' + keyword + '&'
-    apiDate = 'from=' + date + '&'
-    apiKey = 'apiKey=' + newsapikey
-    url = ('https://newsapi.org/v2/top-headlines?'
-            apiKeyword
-            apiDate
-            'sortBy=popularity&'
-            apiKey)
-    response = requests.get(url)
-    print response.json
 
+def getArticlesList(keyword, date):
+    api = NewsApiClient(api_key = newsapikey)
+    top_headlines = (q= apiKeyword,
+            language= 'en',
+            country= 'us')
+    return top_headlines
 
